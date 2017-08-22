@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58318ea6-d595-4ac9-883c-949d00283f5d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card.php" afterPath="$PROJECT_DIR$/Card.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cards.php" afterPath="$PROJECT_DIR$/Cards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug.php" afterPath="$PROJECT_DIR$/Debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deck.php" afterPath="$PROJECT_DIR$/Deck.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Player.php" afterPath="$PROJECT_DIR$/Player.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Table.php" afterPath="$PROJECT_DIR$/Table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +85,8 @@
       <file leaf-file-name="Table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+            <state relative-caret-position="575">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -339,12 +333,12 @@
       <updated>1503404871803</updated>
       <workItem from="1503404873178" duration="4670000" />
       <workItem from="1503410924827" duration="937000" />
-      <workItem from="1503412497311" duration="1096000" />
+      <workItem from="1503412497311" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6703000" />
+    <option name="totallyTimeSpent" value="7358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1011" extended-state="0" />
@@ -548,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state relative-caret-position="575">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
         </state>
       </provider>
