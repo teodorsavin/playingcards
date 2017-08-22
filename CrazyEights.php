@@ -12,6 +12,14 @@ class CrazyEights
         return 5;
     }
 
+    /**
+     * This will make all the steps a player
+     * will do in the game when will be his turn
+     *
+     * @param Player $player
+     * @param array  $discardPile
+     * @param array  $deck
+     */
     public static function nextPlayerMove(Player &$player, array &$discardPile, array &$deck)
     {
         $cardDropped = false;
