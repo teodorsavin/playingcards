@@ -23,7 +23,7 @@ class Table
     /**
      * @param Player $player
      */
-    public function addPlayer(Player $player)
+    public function addPlayer(Player $player): void
     {
         array_push($this->players, $player);
     }
@@ -31,7 +31,7 @@ class Table
     /**
      * Deal cards to all the players on the table
      */
-    public function dealCards()
+    public function dealCards(): void
     {
         $this->deck->shuffleDeck();
 
@@ -42,8 +42,12 @@ class Table
         }
     }
 
-    public function playCrazyEights()
+    /**
+     *
+     */
+    public function playCrazyEights(): void
     {
+        // Deal cards and log each player's cards
         Log::startedPlaying("Crazy Eights");
         $this->dealCards();
         Log::playersCards($this->players);

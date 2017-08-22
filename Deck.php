@@ -23,16 +23,9 @@ class Deck
     /**
      * Shuffle array of cards
      */
-    public function shuffleDeck()
+    public function shuffleDeck(): void
     {
         shuffle($this->cards);
-    }
-
-    public function displayCards() {
-        foreach($this->cards as $card) {
-            echo $card->getAsText();
-            echo '<br />';
-        }
     }
 
     /**

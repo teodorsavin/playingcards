@@ -5,7 +5,15 @@ namespace PlayingCards;
 class Cards
 {
 
-    public static function getSuits()
+    /**
+     * H -> Hearts
+     * C -> Clubs
+     * D -> Diamonds
+     * S -> Spades
+     *
+     * @return array
+     */
+    public static function getSuits(): array
     {
         return [
             'H' => '<span style="color: red;">&#9829;</span>',
@@ -15,7 +23,10 @@ class Cards
         ];
     }
 
-    public static function getValues()
+    /**
+     * @return array
+     */
+    public static function getValues(): array
     {
         return [
             'A' => 'Ace',
@@ -34,7 +45,10 @@ class Cards
         ];
     }
 
-    public static function getShortSuits()
+    /**
+     * @return array
+     */
+    public static function getShortSuits(): array
     {
         return [
             'H','C','D','S'
@@ -42,7 +56,10 @@ class Cards
 
     }
 
-    public static function getShortValues()
+    /**
+     * @return array
+     */
+    public static function getShortValues(): array
     {
         return [
             'A','2','3','4','5','6','7','8','9','10','J','Q','K'

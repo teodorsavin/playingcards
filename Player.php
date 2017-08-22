@@ -35,11 +35,9 @@ class Player
         return $this->name;
     }
 
-    public function displayCards() {
-        foreach ($this->cards as $card) {
-            echo $card->getAsText();
-            echo '<br />';
-        }
+    public function getNoCardsInHand(): int
+    {
+        return count($this->cards);
     }
 }
 

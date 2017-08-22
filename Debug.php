@@ -4,7 +4,7 @@ namespace PlayingCards;
 
 class Debug
 {
-    public static function dd($v)
+    public static function dd($v): void
     {
         echo '<pre>';
         var_dump($v);
