@@ -22,11 +22,10 @@ class CrazyEights
             if ($card->getValue() == $lastCard->getValue() || $card->getSuit() == $lastCard->getSuit()) {
                 $player->removeCard($card);
                 array_push($discardPile, $card);
+                $cardDropped = true;
 
                 // Log action
                 Log::cardDropped($player, $card);
-
-                $cardDropped = true;
                 break;
             }
         }

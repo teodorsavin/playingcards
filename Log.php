@@ -31,6 +31,7 @@ class Log
     {
         echo 'First card on the table is: ' . $card->getAsText();
         echo '<br />';
+        echo '<br />';
     }
 
     public static function winner(Player $winner)
