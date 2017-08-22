@@ -19,8 +19,8 @@ $deck->shuffleDeck();
 $players = [];
 $teodor = new PlayingCards\PLayer("Teodor");
 $elena = new PlayingCards\PLayer("Elena");
-$mihai = new PlayingCards\PLayer("Mihai");
-$andrei = new PlayingCards\PLayer("Andrei");
+$mihai = new PlayingCards\PLayer("Doru");
+$andrei = new PlayingCards\PLayer("Iulia");
 
 // Adding players to the table
 array_push($players, $teodor);

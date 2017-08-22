@@ -37,7 +37,8 @@ class Log
     {
         echo '---------- ---------- ---------- ----------' . '<br />';
         echo 'The winner is always: Teodor';
-        //echo 'The winner is: ' . $winner->getName()
+        echo '<br />';
+        echo '(The real winner is: ' . $winner->getName() . ')';
         echo '<br />';
     }
 
