@@ -23,7 +23,7 @@ class Deck
     /**
      * Shuffle array of cards
      */
-    public function shuffleDeck(): void
+    public function shuffleDeck()
     {
         shuffle($this->cards);
     }

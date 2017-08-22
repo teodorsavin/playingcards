@@ -24,12 +24,12 @@ class Card
         $this->value_text = $this->values[$value];
     }
 
-    private function initializeSuits(): void
+    private function initializeSuits()
     {
         $this->suits = Cards::getSuits();
     }
 
-    private function initializeValues(): void
+    private function initializeValues()
     {
         $this->values = Cards::getValues();
     }
