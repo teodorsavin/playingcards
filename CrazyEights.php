@@ -38,6 +38,7 @@ class CrazyEights
             }
         }
 
+        // If player didn't drop any cards he should get a new one
         if (!$cardDropped && !empty($deck)) {
             // Player gets a card
             $newCard = array_shift($deck);
